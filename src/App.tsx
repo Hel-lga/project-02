@@ -3,13 +3,16 @@ import Hello from "./components/Hello/Hello";
 import Goodbye from "./components/Goodbye/Goodbey";
 import PersonalGreeting from "./components/PersonalGreeting/PersonalGreeting";
 import ProductCard from "./components/ProductCard/ProductCard";
+import Tool from "./components/Tool/Tool";
+import ProfileCard from "./components/ProfileCard/ProfileCard";
 
 function App() {
    return (
     <>
       <p>Hello!</p>
       <Hello />
-      <Hello />
+      <Tool/>
+      <ProfileCard avatar="public\IMG_20250716_093451.jpg" name={"Olha"} description={"junior-programmer"}/>
       <Goodbye />
       <Goodbye />
       <PersonalGreeting name="Olha" />
