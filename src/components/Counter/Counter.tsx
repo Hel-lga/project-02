@@ -16,9 +16,9 @@ export  function Counter() {
     setCount((prev) => prev - 1);
   }
 
-  function handleClear(){
-    setCount(0);
-  }
+  // function handleClear(){
+  //   setCount(0);
+  // }
 
 function finishGame(){
   setCount(0);

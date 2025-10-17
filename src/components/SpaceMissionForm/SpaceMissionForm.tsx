@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function SpaceMissionForm() {
-  const [name, setName] = useState<string>("name");
+  const [name, setName] = useState<string>("");
   const [planet, setPlanet] = useState<string>("Earth");
 
   
