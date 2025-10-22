@@ -1,0 +1,24 @@
+.header {
+  background-color: rgb(211, 63, 166);
+  padding: 24px 60px;
+  width: 100%;
+}
+
+.header nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 12px;
+  font-size: larger;
+}
+
+.link{
+  padding: 4px;
+  color: black;
+}
+
+.link:hover{
+  color: goldenrod;
+}

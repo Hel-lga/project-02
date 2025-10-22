@@ -1,12 +1,13 @@
 import { useState } from "react";
+import s from "./SpaceMissionForm.module.css"
 
 export default function SpaceMissionForm() {
   const [name, setName] = useState<string>("");
-  const [planet, setPlanet] = useState<string>("Earth");
+  const [planet, setPlanet] = useState<string>("Mars");
 
   
   return (
-    <div>
+    <div className={s.container}>
       <h2>Space Mission</h2>
       <label htmlFor="name-input">Name</label>
       <input 
